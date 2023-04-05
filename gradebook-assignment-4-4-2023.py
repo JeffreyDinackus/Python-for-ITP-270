@@ -1,6 +1,6 @@
-subjects = ["physics"
-"calculus"
-"poetry"
+subjects = ["physics",
+"calculus",
+"poetry",
 "history"]
 
 grades = [98, 97, 85, 88]
