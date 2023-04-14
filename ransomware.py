@@ -17,6 +17,7 @@ def generate_salt(size=16):
 
 def derive_key(salt, password):
     """Derive the key from the `password` using the passed `salt`"""
+    #change to 2**20 for more sensitive passwords
     kdf = Scrypt(salt=salt, length=32, n=2**14, r=8, p=1)
     return kdf.derive(password.encode())
 
