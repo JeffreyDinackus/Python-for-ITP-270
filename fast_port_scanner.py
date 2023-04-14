@@ -12,7 +12,7 @@ RESET = Fore.RESET
 GRAY = Fore.LIGHTBLACK_EX
 
 # number of threads, feel free to tune this parameter as you wish
-N_THREADS = 200
+N_THREADS = 3000
 # thread queue
 q = Queue()
 print_lock = Lock()
