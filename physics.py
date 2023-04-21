@@ -59,6 +59,8 @@ bomb_energy = get_energy(100)
 # 11. Define a final function called get_work that takes in mass, acceleration, and distance.
 # Work is defined as force multiplied by distance. First, get the force using get_force, then multiply that by distance. Return the result.
 
+
+#this problem uses the previous function to get the force. 
 def get_work(train_mass, train_acceleration, train_distance):
     train_work = get_force(train_mass, train_acceleration) * train_distance
     print("The GE train does "+ str(train_work) +" Joules of work over "+ str(train_distance) +" meters.")
